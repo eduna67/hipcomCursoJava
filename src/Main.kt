@@ -10,6 +10,8 @@ fun main(args: Array<String>) {
     carro.printVelocidadeAtula()
     carro.freia(10)
     carro.printVelocidadeAtula()
+
+    carro.acelera(100)
 }
 
 class Carro(var cor:String ="",var velocidadeMaxima:Int=150,var velocidadeAtual: Int =0){

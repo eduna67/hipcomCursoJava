@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="605e9fc8-d90d-4097-aaa7-c53b6af539a1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CursoHipcom/Banco/ConfiguracoesArquivo$Companion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CursoHipcom/Banco/ConfiguracoesArquivo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CursoHipcom/Banco/Criptografia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CursoHipcom/Carro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CursoHipcom/Carro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CursoHipcom/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CursoHipcom/MainKt.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,7 +72,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544116967543" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544437799938" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -152,12 +150,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544116788811</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Teste de commit">
+      <created>1544116977107</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1544116977107</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25321338" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -173,7 +177,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="8" side_tool="true" visible="true" weight="0.32934928" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32934928" />
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />

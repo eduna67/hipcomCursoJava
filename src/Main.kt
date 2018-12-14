@@ -1,10 +1,11 @@
 fun main(args: Array<String>) {
     println("Criando objeto carro.")
     var carro = Carro()
-    carro.cor="vermelho"
+    carro.modelo = "Fusca"
+    carro.cor = "vermelho"
     carro.printCor()
 
-    carro.velocidadeAtual=50
+    carro.velocidadeAtual = 50
     carro.printVelocidadeAtula()
     carro.acelera(150)
     carro.printVelocidadeAtula()
@@ -12,9 +13,19 @@ fun main(args: Array<String>) {
     carro.printVelocidadeAtula()
 
     carro.acelera(100)
+
+    var carros = ArrayList<Carro>()
+    carros.add(carro)
+    carros.add(Carro(modelo = "Palio", cor = "Amarelo", velocidadeMaxima = 100, velocidadeAtual = 50))
+    carros.forEach {  }
+
+
+    for (carromostra in carros) {
+        println("O carro ${carromostra.modelo} é da cor: ${carromostra.cor}")
+    }
 }
 
-class Carro(var cor:String ="",var velocidadeMaxima:Int=150,var velocidadeAtual: Int =0){
+class Carro(var cor:String ="",var velocidadeMaxima:Int=150,var velocidadeAtual: Int =0,var modelo:String=""){
     fun printCor(){println("A cor é: "+cor)}
     fun printVelocidadeAtula(){println("A velocidade atual é: "+velocidadeAtual)}
     fun acelera(velocidade:Int){

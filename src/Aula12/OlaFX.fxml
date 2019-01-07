@@ -6,14 +6,14 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="323.0" prefWidth="454.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Aula12.OlaFX">
+<AnchorPane prefHeight="323.0" prefWidth="454.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Aula12.OlaFX">
    <children>
       <Label layoutX="14.0" layoutY="14.0" text="Olá mundo com JavaFX usando Kotlin">
          <font>
             <Font size="23.0" />
          </font>
       </Label>
-      <TextField fx:id="input" layoutX="14.0" layoutY="149.0" prefHeight="25.0" prefWidth="318.0" />
+      <TextField fx:id="input" layoutX="14.0" layoutY="149.0" onKeyPressed="#onKeyPressed" prefHeight="25.0" prefWidth="318.0" />
       <Button layoutX="346.0" layoutY="149.0" mnemonicParsing="false" onAction="#btnclique" text="Clique aqui!" />
       <Label layoutX="14.0" layoutY="125.0" text="Digite alguma coisa no campo abaixo" />
       <Label fx:id="output" layoutX="14.0" layoutY="240.0">
